@@ -333,21 +333,48 @@ footer {
 }
 
 .contact-form {
-  padding-top: 100px;
+   margin:100px;
+    text-align:center;    
 }
 
 input,textarea {
-  width:400px;
-  margin-top:10px;
-  margin-bottom:30px;
-  padding :20px;
-  font-size:18px;
-  border:1px solid #dee7ec;
-
+    width:400px;
+    margin-top:10px;
+    margin-bottom:15px;
+    padding :20px;
+    font-size:18px;
+    border:1px solid #00F;
+    border-radius:10px;
 }
 
-.contact-submit{
-  background:#dee7ec;
-  color:#889eab;
-
+.contact-submit{    
+    color:#889eab;
 }
+
+.btn1{    
+    margin:20px;    
+    color:white;    
+    display:inline-block;    
+    height:30px;    
+    width:150px;    
+    opacity:0.8;    
+    cursor:pointer;    
+    border-radius:5px;    
+    font-size:24;    
+    box-shadow:0px 7px #000000;
+}
+
+.submit1{    
+    background-color:000080;
+}
+
+.btn1:hover{    
+    opacity:1;
+}
+
+.btn1:active{    
+    box-shadow:none;    
+    position:relative;    
+    top:7px;
+}
+
