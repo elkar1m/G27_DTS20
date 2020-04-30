@@ -333,15 +333,16 @@ footer {
 }
 
 .contact-form {
-   margin:100px;
+	background-color:#ddeaf1;
+   margin:10px;
     text-align:center;    
 }
 
 input,textarea {
     width:400px;
-    margin-top:10px;
-    margin-bottom:15px;
-    padding :20px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding :5px;
     font-size:18px;
     border:1px solid #00F;
     border-radius:10px;
@@ -352,8 +353,8 @@ input,textarea {
 }
 
 .btn1{    
-    margin:20px;    
-    color:white;    
+    margin:10px;    
+    color:black;    
     display:inline-block;    
     height:30px;    
     width:150px;    
@@ -365,7 +366,7 @@ input,textarea {
 }
 
 .submit1{    
-    background-color:000080;
+    background-color:#9b37f8;
 }
 
 .btn1:hover{    
@@ -377,4 +378,3 @@ input,textarea {
     position:relative;    
     top:7px;
 }
-
